@@ -4,6 +4,6 @@ def magic_calculation(a, b):
         c = a + b
         for i in range(4, 6):
             c = c + i
-        return c
+        return(c)
 
-    return (a - b)
+    return(a - b)
