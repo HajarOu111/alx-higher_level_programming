@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 def magic_calculation(a, b):
     if a < b:
-        c = a + b
+        c = add(a, b)
         for i in range(4, 6):
-            c = c + i
+            c = add(c, i)
         return(c)
-
-    return(a - b)
+    return(sub(a, b))
