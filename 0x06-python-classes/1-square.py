@@ -3,9 +3,8 @@
 """
 
 
-""" Class definition """
 class Square:
-    """ Class initialization """
+    """ Class definition """
     def __init__(self, size):
-        """ Private instance attribute """
+        """ Class initialization """
         self.__size = size
