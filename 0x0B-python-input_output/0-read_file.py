@@ -6,6 +6,6 @@ and prints it to stdout
 
 def read_file(filename=""):
     """ Opens the file in read mode """
-    with open(filename, encoding='utf-8') as f:
-        for line in f:
+    with open(filename, encoding='utf-8') as fd:
+        for line in fd:
             print(line, end='')
