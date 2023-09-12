@@ -8,4 +8,4 @@ def read_file(filename=""):
     """ Opens the file in read mode """
     with open(filename, encoding='utf-8') as file:
         for line in file:
-            print(line.strip())
+            print(line, end='')
