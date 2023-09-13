@@ -9,10 +9,6 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-    def to_json(self):
-        """ Retrieves a dictionary representation of a Student instance """
-        return self.__dict__
-
     def to_json(self, attrs=None):
         """ A function that retrieves a dictionary representation of a Student.
         Retrieves only attribute names contained in this list if attrs is a list
