@@ -11,9 +11,8 @@ class Student:
 
     def to_json(self, attrs=None):
         """ A function that retrieves a dictionary representation of a Student,
-        Retrieves only attribute names contained in this list if attrs is a list
-        of strings.
-        Otherwise, all attributes must be retrieved.
+        Retrieves only attribute names contained in this list if attrs is a
+        list of strings.
         """
         if (type(attrs) == list and all(type(ele) == str for ele in attrs)):
             return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
