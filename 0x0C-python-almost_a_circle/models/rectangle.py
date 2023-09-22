@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 from models.base import Base
-''' This class  inherits from Base.
-'''
+''' This class  inherits from Base '''
 
 class Rectangle(Base):
     ''' Child class '''
+
     def __init__(self, width, height, x=0, y=0, id=None):
         ''' Class constructor '''
         super().__init__(id)
