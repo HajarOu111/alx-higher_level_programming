@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" A class BaseGeometry """
+""" A class BaseGeometry. """
+
 
 class BaseGeometry:
     """ Public instance method """
