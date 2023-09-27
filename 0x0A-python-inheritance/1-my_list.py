@@ -2,9 +2,6 @@
 """ This class inherits from list """
 
 
-
-
-
 class MyList(list):
     """ Constructor of this subclass """
     def ___init__(self):
