@@ -7,8 +7,8 @@ class Rectangle(BaseGeometry):
     """ Constructor of the class """
 
     def __init__(self, width, height):
-        """ The constructor of the superclass
-        """
+        """ The constructor of the superclass """
+
         super().integer_validator("width", width)
         self.__width = width
         super().integer_validator("height", height)
