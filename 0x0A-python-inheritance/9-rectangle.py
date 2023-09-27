@@ -19,7 +19,7 @@ class Rectangle(BaseGeometry):
         return self.__width * self.__height
         
     def __str__(self):
-        """ returns the following rectangle description: [Rectangle] <width>/<height> """
+        """ returns the print() and str() representation of a Rectangle """
         string = "[" + (str(self.__class__.__name__)) + "] " 
         string += str(self.__width) + "/" + str(self.__height)
         return string
