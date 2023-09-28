@@ -3,8 +3,8 @@
 
 
 def add_attribute(obj, name, value):
-    """ Checks if the object has an attribute or not
+    """ Adds a new attribute if it's possible
     """
-    if not hasattr(obj, '__dict__'):
+    if not hasattr(obj, "__dict__"):
         raise Exception("can't add new attribute")
     setattr(obj, name, value)
